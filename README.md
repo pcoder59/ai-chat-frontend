@@ -4,8 +4,8 @@ A Simple Frontend for Ollama written in python
 
 # Requirement
 
-- Ollama should be hosted on the system: refer [text](https://github.com/ollama/ollama)
-- Ollama python module: refer [text](https://github.com/ollama/ollama-python)
+- Ollama should be hosted on the system: refer [Ollama Github](https://github.com/ollama/ollama)
+- Ollama python module: refer [ollama-python Github](https://github.com/ollama/ollama-python)
 
 # Usage
 
