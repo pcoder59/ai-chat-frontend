@@ -51,7 +51,7 @@ def selectmodel(models):
             print(f'Model Pulled Successfully. Using {model_selected}')
             return model_selected
         else:
-            selectmodel(models)
+            return selectmodel(models)
     else:
         return model_selected
 
