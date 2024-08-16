@@ -9,6 +9,7 @@ A Simple Frontend for Ollama written in python
 
 # Usage
 
-- Run main.py and enter the model you want to use. By default it uses llama2-uncensored if not enetered
+- Run main.py and enter the model you want to use. By default it uses first model found on host if not enetered
+- Enter /list at the prompt for a list of models already pulled
+- If a model not on the list is entered, will try to pull it via ollama
 - Type the prompt and wait for the response
-- If Model does not exist, it will try to pull the model with ollama
