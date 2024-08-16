@@ -48,6 +48,7 @@ def selectmodel(models):
         print('Model Not Found! Trying to Pull Model...')
         success = pullmodel(model_selected)
         if success:
+            print(f'Model Pulled Successfully. Using {model_selected}')
             return model_selected
         else:
             selectmodel(models)
